@@ -1,0 +1,221 @@
+<UserControl x:Class="P3FESTrainer.Views.StatsTabView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="clr-namespace:P3FESTrainer.Controls">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+    <DockPanel Margin="4">
+
+        <!-- Top row: Member selection, Party Configuration, Social Stats -->
+        <Grid DockPanel.Dock="Top" Margin="0,0,0,6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" VerticalAlignment="Top">
+                <GroupBox Header="Member" Width="340">
+                    <StackPanel Margin="6">
+                        <TextBlock Text="Scenario" Margin="0,0,0,2" />
+                        <ComboBox x:Name="ScenarioBox" Margin="0,0,0,6" HorizontalAlignment="Stretch" SelectionChanged="ScenarioBox_SelectionChanged" />
+                        <ComboBox x:Name="CharacterBox" Margin="0,0,0,8" HorizontalAlignment="Stretch" SelectionChanged="CharacterBox_SelectionChanged" />
+
+                        <!-- Main character level and experience controls -->
+                        <StackPanel x:Name="MemberLevelPanel">
+                            <Grid Margin="0,0,0,6">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="60" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="LV" VerticalAlignment="Center" />
+                                <Slider Grid.Column="1" x:Name="CharLevelSlider" Minimum="1" Maximum="99" Margin="0,0,2,0" VerticalAlignment="Center"
+                                        ValueChanged="CharLevelSlider_ValueChanged" />
+                                <TextBox Grid.Column="2" x:Name="CharLevelValueText" Text="99" Width="45" VerticalContentAlignment="Center" HorizontalAlignment="Right"
+                                         LostFocus="CharLevelValueBox_LostFocus" KeyDown="CharLevelValueBox_KeyDown" />
+                            </Grid>
+                            <Grid Margin="0,0,0,6">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="60" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Total XP" VerticalAlignment="Center" />
+                                <TextBox Grid.Column="1" x:Name="CharExpBox" HorizontalAlignment="Stretch" VerticalContentAlignment="Center" TextChanged="CharExpBox_TextChanged" />
+                            </Grid>
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
+                                <TextBlock Text="Next EXP:" VerticalAlignment="Center" Width="60" />
+                                <TextBlock x:Name="CharNextExpText" Text="-" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                                <Button Content="Set Level" Click="SetCharLevel_Click" Margin="0,0,8,0" Width="75" />
+                                <Button x:Name="MemberFillButton" Content="Fill" Click="MemberFill_Click" Width="45" />
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+
+                <!-- HP/SP stats -->
+                <GroupBox x:Name="HpSpGroup" Header="HP / SP" Margin="0,6,0,0" Width="340">
+                    <StackPanel Orientation="Horizontal" Margin="6,4">
+                        <TextBlock Text="HP" VerticalAlignment="Center" Margin="0,0,6,0" />
+                        <TextBox x:Name="HpBox" Width="85" Margin="0,0,16,0" VerticalContentAlignment="Center" />
+                        <TextBlock Text="SP" VerticalAlignment="Center" Margin="0,0,6,0" />
+                        <TextBox x:Name="SpBox" Width="85" Margin="0,0,16,0" VerticalContentAlignment="Center" />
+                        <Button Content="Set" Click="SetHpSp_Click" Width="45" />
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+
+            <GroupBox Grid.Column="1" Header="Party Configuration" VerticalAlignment="Top" Margin="6,0,0,0">
+                <StackPanel Orientation="Vertical" Margin="4">
+                    <ComboBox x:Name="PartySlot2Box" Width="180" Margin="0,2" />
+                    <ComboBox x:Name="PartySlot3Box" Width="180" Margin="0,2" />
+                    <ComboBox x:Name="PartySlot4Box" Width="180" Margin="0,2" />
+                    <Button Content="Set Party" Click="SetParty_Click" Margin="0,4,0,0" />
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Social stats section (Main character only) -->
+            <GroupBox x:Name="McSocialStatsGroup" Grid.Column="2" Header="Social Stats" VerticalAlignment="Top" Margin="6,0,0,0">
+                <Grid Margin="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="230" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Academics" VerticalAlignment="Center" Margin="0,2,6,2" />
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                        <Slider x:Name="AcademicsSlider" Minimum="0" Maximum="260" Width="110" ValueChanged="McStatSlider_ValueChanged" Tag="Academics" />
+                        <TextBox x:Name="AcademicsValueText" Text="260" Width="34" Margin="4,0,0,0" VerticalContentAlignment="Center" Tag="Academics" LostFocus="McStatValueBox_LostFocus" KeyDown="McStatValueBox_KeyDown" />
+                        <TextBlock x:Name="AcademicsRankText" Text="Genius (Max)" VerticalAlignment="Center" Margin="4,0,0,0" FontWeight="Bold" FontSize="11" />
+                    </StackPanel>
+
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Charm" VerticalAlignment="Center" Margin="0,2,6,2" />
+                    <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+                        <Slider x:Name="CharmSlider" Minimum="0" Maximum="80" Width="110" ValueChanged="McStatSlider_ValueChanged" Tag="Charm" />
+                        <TextBox x:Name="CharmValueText" Text="80" Width="34" Margin="4,0,0,0" VerticalContentAlignment="Center" Tag="Charm" LostFocus="McStatValueBox_LostFocus" KeyDown="McStatValueBox_KeyDown" />
+                        <TextBlock x:Name="CharmRankText" Text="Charismatic (Max)" VerticalAlignment="Center" Margin="4,0,0,0" FontWeight="Bold" FontSize="11" />
+                    </StackPanel>
+
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Courage" VerticalAlignment="Center" Margin="0,2,6,2" />
+                    <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
+                        <Slider x:Name="CourageSlider" Minimum="0" Maximum="80" Width="110" ValueChanged="McStatSlider_ValueChanged" Tag="Courage" />
+                        <TextBox x:Name="CourageValueText" Text="80" Width="34" Margin="4,0,0,0" VerticalContentAlignment="Center" Tag="Courage" LostFocus="McStatValueBox_LostFocus" KeyDown="McStatValueBox_KeyDown" />
+                        <TextBlock x:Name="CourageRankText" Text="Badass (Max)" VerticalAlignment="Center" Margin="4,0,0,0" FontWeight="Bold" FontSize="11" />
+                    </StackPanel>
+
+                    <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content="Set Social Stats" Click="SetMcSocialStats_Click" Margin="0,4,0,0" HorizontalAlignment="Left" />
+                </Grid>
+            </GroupBox>
+        </Grid>
+
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Margin="0,6,0,0">
+            <Button Content="Set" Click="WritePersona_Click" />
+            <TextBlock x:Name="ResultText" Margin="8,0,0,0" VerticalAlignment="Center" />
+        </StackPanel>
+
+        <!-- Persona and Skills section -->
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Grid.Column="0" Header="Persona" VerticalAlignment="Top" Width="340">
+                <Grid Margin="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <ComboBox x:Name="SlotBox" Grid.Row="0" Grid.Column="0" Width="45" Margin="0,4,5,6" HorizontalAlignment="Left"
+                              SelectionChanged="SlotBox_SelectionChanged" />
+                    <controls:SearchableComboBox x:Name="PersonaBox" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
+                                                  HorizontalAlignment="Stretch" Margin="0,4,0,6"
+                                                  SelectionCommitted="PersonaBox_SelectionCommitted" />
+
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="LV" VerticalAlignment="Center" Margin="0,2,6,2" />
+                    <Slider Grid.Row="1" Grid.Column="1" x:Name="LevelSlider" Minimum="1" Maximum="99" Margin="0,2,2,2" VerticalAlignment="Center"
+                            ValueChanged="LevelSlider_ValueChanged" />
+                    <TextBox Grid.Row="1" Grid.Column="2" x:Name="LevelValueText" Text="99" Width="45" VerticalContentAlignment="Center" Margin="0,2" HorizontalAlignment="Right"
+                             LostFocus="LevelValueBox_LostFocus" KeyDown="LevelValueBox_KeyDown" />
+
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="ST" VerticalAlignment="Center" Margin="0,2,6,2" />
+                    <Slider Grid.Row="2" Grid.Column="1" x:Name="StSlider" Minimum="0" Maximum="99" Margin="0,2,2,2" VerticalAlignment="Center"
+                            ValueChanged="StatSlider_ValueChanged" Tag="ST" />
+                    <TextBox Grid.Row="2" Grid.Column="2" x:Name="StValueText" Text="99" Width="45" VerticalContentAlignment="Center" Tag="ST" Margin="0,2" HorizontalAlignment="Right"
+                             LostFocus="StatValueBox_LostFocus" KeyDown="StatValueBox_KeyDown" />
+
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="MA" VerticalAlignment="Center" Margin="0,2,6,2" />
+                    <Slider Grid.Row="3" Grid.Column="1" x:Name="MaSlider" Minimum="0" Maximum="99" Margin="0,2,2,2" VerticalAlignment="Center"
+                            ValueChanged="StatSlider_ValueChanged" Tag="MA" />
+                    <TextBox Grid.Row="3" Grid.Column="2" x:Name="MaValueText" Text="99" Width="45" VerticalContentAlignment="Center" Tag="MA" Margin="0,2" HorizontalAlignment="Right"
+                             LostFocus="StatValueBox_LostFocus" KeyDown="StatValueBox_KeyDown" />
+
+                    <TextBlock Grid.Row="4" Grid.Column="0" Text="EN" VerticalAlignment="Center" Margin="0,2,6,2" />
+                    <Slider Grid.Row="4" Grid.Column="1" x:Name="EnSlider" Minimum="0" Maximum="99" Margin="0,2,2,2" VerticalAlignment="Center"
+                            ValueChanged="StatSlider_ValueChanged" Tag="EN" />
+                    <TextBox Grid.Row="4" Grid.Column="2" x:Name="EnValueText" Text="99" Width="45" VerticalContentAlignment="Center" Tag="EN" Margin="0,2" HorizontalAlignment="Right"
+                             LostFocus="StatValueBox_LostFocus" KeyDown="StatValueBox_KeyDown" />
+
+                    <TextBlock Grid.Row="5" Grid.Column="0" Text="AG" VerticalAlignment="Center" Margin="0,2,6,2" />
+                    <Slider Grid.Row="5" Grid.Column="1" x:Name="AgSlider" Minimum="0" Maximum="99" Margin="0,2,2,2" VerticalAlignment="Center"
+                            ValueChanged="StatSlider_ValueChanged" Tag="AG" />
+                    <TextBox Grid.Row="5" Grid.Column="2" x:Name="AgValueText" Text="99" Width="45" VerticalContentAlignment="Center" Tag="AG" Margin="0,2" HorizontalAlignment="Right"
+                             LostFocus="StatValueBox_LostFocus" KeyDown="StatValueBox_KeyDown" />
+
+                    <TextBlock Grid.Row="6" Grid.Column="0" Text="LU" VerticalAlignment="Center" Margin="0,2,6,2" />
+                    <Slider Grid.Row="6" Grid.Column="1" x:Name="LuSlider" Minimum="0" Maximum="99" Margin="0,2,2,2" VerticalAlignment="Center"
+                            ValueChanged="StatSlider_ValueChanged" Tag="LU" />
+                    <TextBox Grid.Row="6" Grid.Column="2" x:Name="LuValueText" Text="99" Width="45" VerticalContentAlignment="Center" Tag="LU" Margin="0,2" HorizontalAlignment="Right"
+                             LostFocus="StatValueBox_LostFocus" KeyDown="StatValueBox_KeyDown" />
+
+                    <TextBlock Grid.Row="7" Grid.Column="0" Text="Total XP:" VerticalAlignment="Center" Margin="0,8,6,4" />
+                    <TextBox x:Name="ExpBox" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalContentAlignment="Center"
+                             Margin="0,8,0,4" TextChanged="ExpBox_TextChanged" />
+
+                    <TextBlock Grid.Row="8" Grid.Column="0" Text="Next EXP:" VerticalAlignment="Center" Margin="0,4,6,8" />
+                    <TextBlock Grid.Row="8" Grid.Column="1" x:Name="NextExpText" Text="-" VerticalAlignment="Center" Margin="0,4,0,8" />
+                    <Button x:Name="FillNearLevelUpButton" Grid.Row="8" Grid.Column="2" Content="Fill" Click="FillNearLevelUp_Click" Width="45" Margin="0,4,0,8" HorizontalAlignment="Right" />
+                </Grid>
+            </GroupBox>
+
+            <GroupBox Grid.Column="1" Header="Skills" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="6,0,0,0">
+                <StackPanel Margin="4">
+                    <UniformGrid Columns="2" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <controls:SearchableComboBox x:Name="Skill0" Width="260" Margin="4" HorizontalAlignment="Left" SelectionCommitted="SkillBox_SelectionCommitted" />
+                        <controls:SearchableComboBox x:Name="Skill4" Width="260" Margin="4" HorizontalAlignment="Left" SelectionCommitted="SkillBox_SelectionCommitted" />
+                        <controls:SearchableComboBox x:Name="Skill1" Width="260" Margin="4" HorizontalAlignment="Left" SelectionCommitted="SkillBox_SelectionCommitted" />
+                        <controls:SearchableComboBox x:Name="Skill5" Width="260" Margin="4" HorizontalAlignment="Left" SelectionCommitted="SkillBox_SelectionCommitted" />
+                        <controls:SearchableComboBox x:Name="Skill2" Width="260" Margin="4" HorizontalAlignment="Left" SelectionCommitted="SkillBox_SelectionCommitted" />
+                        <controls:SearchableComboBox x:Name="Skill6" Width="260" Margin="4" HorizontalAlignment="Left" SelectionCommitted="SkillBox_SelectionCommitted" />
+                        <controls:SearchableComboBox x:Name="Skill3" Width="260" Margin="4" HorizontalAlignment="Left" SelectionCommitted="SkillBox_SelectionCommitted" />
+                        <controls:SearchableComboBox x:Name="Skill7" Width="260" Margin="4" HorizontalAlignment="Left" SelectionCommitted="SkillBox_SelectionCommitted" />
+                    </UniformGrid>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+    </DockPanel>
+    </ScrollViewer>
+</UserControl>

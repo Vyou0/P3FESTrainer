@@ -1,0 +1,128 @@
+id,name,defence,attribute_id
+1001,Plain Shirt,30,0
+1002,Knit Cardigan,26,0
+1003,Ruffled Blouse,28,0
+1004,Dress Shirt,28,0
+1005,Red Vest,30,0
+1006,Zip Hoodie,24,0
+1007,Long Pea Coat,32,0
+1008,All-purpose Apron,50,0
+1009,Emergency Vest,77,0
+1010,Rash Guard,40,0
+1011,Camo Shirt,44,0
+1012,Bulletproof Shirt,48,0
+1013,Metal Protector,50,0
+1014,Amenity Suit,46,0
+1015,0x100F,0,0
+1016,0x1010,0,0
+1017,0x1011,0,0
+1018,0x1012,0,0
+1019,Master's Garment,58,0
+1020,Amigo Poncho,64,0
+1021,Bulletproof Vest,66,0
+1022,Tetra Jammer,74,0
+1023,Robe of Salvation,76,0
+1024,Mantle of Wind,82,0
+1025,Robe of Warding,84,0
+1026,Defender Cloak,92,0
+1027,Gigantic Armor,94,0
+1028,Kukai's Vestment,106,0
+1029,Kaiser Armor,108,0
+1030,Final Armor,118,0
+1031,Demon's Mail,120,0
+1032,Rangda Robe,86,0
+1033,Papal Robe,128,0
+1034,Armor of Light,170,0
+1035,0x1023,0,0
+1036,Silver Plate,124,0
+1037,Carbon Jacket,110,0
+1038,Shirt of Chivalry,46,69
+1039,Sid's Jacket,106,0
+1040,0x1028,0,0
+1041,0x1029,0,0
+1042,Tigerhide Belt,60,0
+1043,Hero's Knickers,78,0
+1044,0x102C,0,0
+1045,Stealth Shirt,96,0
+1046,Powered Suit,122,0
+1047,0x102F,0,0
+1048,0x1030,0,0
+1049,0x1031,0,0
+1050,Hallowed Plate,162,0
+1051,Phantom Robe,112,0
+1052,0x1034,0,0
+1053,0x1035,0,0
+1054,High-cut Armor,52,0
+1055,0x1037,0,0
+1056,0x1038,0,0
+1057,Battle Leotard,106,0
+1058,Spiked Bra,110,0
+1059,0x104B,0,0
+1060,Eternal Plate,156,0
+1061,Dog Suit,74,0
+1062,Cross Dog Suit,100,0
+1063,Titanium Dog Suit,92,0
+1064,Light Dog Suit,90,0
+1065,Leather Dog Suit,76,0
+1066,Metal Dog Suit,82,0
+1067,Dark Dog Suit,122,0
+1068,Powered Dog Suit,112,0
+1069,Lunar Dog Suit,130,0
+1070,Aura Dog Suit,160,0
+1071,Aramid Vest,0,0
+1072,Aramid Harness,0,0
+1073,Aramid Semi-Shell,70,0
+1074,Aramid Full-Shell,74,0
+1075,Aramid Plate,88,0
+1076,Aramid Compound,98,0
+1077,Ergo Scale,110,0
+1078,Ergo Armor,122,0
+1079,Fifth Number,132,0
+1080,Papillon Method,132,0
+1081,Blue Shorts,80,0
+1082,Pink Bikini,80,0
+1083,Blue Swimwear,80,0
+1084,Elegant Bikini,80,0
+1085,Sky Sundress,80,0
+1086,Baseball Jersey,80,0
+1087,Turtleneck,6,0
+1088,Red Shorts,80,0
+1089,0x1059,0,0
+1090,Enamel Torso,0,0
+1091,Velour Torso,0,0
+1092,Nacre Torso,61,0
+1093,Bisque Torso,69,0
+1094,Bulletproof Torso,80,0
+1095,Chevalier Torso,88,0
+1096,Zircon Torso,96,0
+1097,Jacquedrose,110,0
+1098,Vermelies,114,0
+1099,Oceanus Scale,124,0
+1100,Soul of Athena,160,0
+1101,Joruri Tengu,135,0
+1102,Aigis Armor v.100,165,0
+1103,Meseauzer,165,0
+1104,0x1068,0,0
+1105,Hard Dog Suit,0,0
+1106,S.Outfit Main,95,0
+1107,W.Outfit Main,60,0
+1108,S.Outfit Junpei,60,0
+1109,W.Outfit Junpei,60,0
+1110,S.Outfit Akihiko,60,0
+1111,W.Outfit Akihiko,60,0
+1112,S.Outfit Yukari,60,0
+1113,W.Outfit Yukari,60,0
+1114,S.Outfit Mitsuru,60,0
+1115,W.Outfit Mitsuru,60,0
+1116,W.Outfit Ken,60,0
+1117,Maid Outfit (Y),118,0
+1118,Maid Outfit (M),118,0
+1119,S.Uniform Main,0,0
+1120,S.Uniform Junpei,0,0
+1121,S.Uniform Akihiko,0,0
+1122,S.Uniform Yukari,0,0
+1123,S.Uniform Mitsuru,0,0
+1124,W.Uniform Aigis,50,0
+1125,S.Uniform Ken,0,0
+1126,Maid Outfit (A),90,0
+1127,Rock Dog Suit,66,0

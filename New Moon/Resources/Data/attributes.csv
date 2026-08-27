@@ -1,0 +1,190 @@
+id,name
+0,None
+1,+1 Strength
+2,+2 Strength
+3,+3 Strength
+4,+4 Strength
+5,+5 Strength
+6,+1 Endurance
+7,+2 Endurance
+8,+3 Endurance
+9,+4 Endurance
+10,+5 Endurance
+11,+1 Magic
+12,+2 Magic
+13,+3 Magic
+14,+4 Magic
+15,+5 Magic
+16,+1 Agility
+17,+2 Agility
+18,+3 Agility
+19,+4 Agility
+20,+5 Agility
+21,+1 Luck
+22,+2 Luck
+23,+3 Luck
+24,+4 Luck
+25,+5 Luck
+26,+10 HP
+27,+20 HP
+28,+30 HP
+29,+40 HP
+30,+50 HP
+31,+10 SP
+32,+20 SP
+33,+30 SP
+34,+40 SP
+35,+50 SP
+36,+Strong vs Magician
+37,+Strong vs Priestess
+38,+Strong vs Empress
+39,+Strong vs Emperor
+40,+Strong vs Priestess
+41,+Strong vs Lovers
+42,+Strong vs Chariot
+43,+Strong vs Justice
+44,+Strong vs Hermit
+45,+Strong vs Fortune
+46,+Strong vs Strength
+47,+Strong vs Hanged Man
+48,+Strong vs Death
+49,+Charm (low odds)
+50,+Charm (med odds)
+51,+Charm (high odds)
+52,+Distress (low odds)
+53,+Distress (med odds)
+54,+Distress (high odds)
+55,+Panic (low odds)
+56,+Panic (low odds)
+57,+Panic (high odds)
+58,+Fear (low odds)
+59,+Fear (med odds)
+60,+Fear (high odds)
+61,+Rage (low odds)
+62,+Rage (med odds)
+63,+Rage (high odds)
+64,+Poison (low odds)
+65,+Poison (med odds)
+66,+Poison (high odds)
+67,+Crit rate up (low)
+68,+Crit rate up (med)
+69,+Crit rate up (high)
+70,None
+71,None
+72,None
+73,+Resist Strike (low)
+74,+Resist Strike (med)
+75,+Resist Strike (high)
+76,+Resist Slash (low)
+77,+Resist Slash (med)
+78,+Resist Slash (high)
+79,+Resist Pierce (low)
+80,+Resist Pierce (med)
+81,+Resist Pierce (high)
+82,+Resist Phys (low)
+83,+Resist Phys (med)
+84,+Resist Phys (high)
+85,+Resist Fire (low)
+86,+Resist Fire (med)
+87,+Resist Fire (high)
+88,+Resist Ice (low)
+89,+Resist Ice (med)
+90,+Resist Ice (high)
+91,+Resist Wind (low)
+92,+Resist Wind (med)
+93,+Resist Wind (high)
+94,+Resist Elec (low)
+95,+Resist Elec (med)
+96,+Resist Elec (high)
+97,+Resist Magic (low)
+98,+Resist Magic (med)
+99,+Resist Magic (high)
+100,+Reduce Stumble (low)
+101,+Reduce Stumble (high)
+102,+Prevent Stumble
+103,+Evade Strike (low)
+104,+Evade Strike (med)
+105,+Evade Strike (high)
+106,+Evade Slash (low)
+107,+Evade Slash (med)
+108,+Evade Slash (high)
+109,+Evade Pierce (low)
+110,+Evade Pierce (med)
+111,+Evade Pierce (high)
+112,+Evade Phys (low)
+113,+Evade Phys (med)
+114,+Evade Phys (high)
+115,+Evade Fire (low)
+116,+Evade Fire (med)
+117,+Evade Fire (high)
+118,+Evade Ice (low)
+119,+Evade Ice (med)
+120,+Evade Ice (high)
+121,+Evade Wind (low)
+122,+Evade Wind (med)
+123,+Evade Wind (high)
+124,+Evade Elec (low)
+125,+Evade Elec (med)
+126,+Evade Elec (high)
+127,+Evade Magic (low)
+128,+Evade Magic (med)
+129,+Evade Magic (high)
+130,+unknown effect
+131,+10 Strength
+132,+10 Endurance
+133,+10 Magic
+134,+10 Agility
+135,+10 Luck
+136,+1 to all stats
+137,+2 to all stats
+138,+3 to all stats
+139,+4 to all stats
+140,+5 to all stats
+141,+10 to all stats
+142,+100 HP
+143,+100 SP
+144,+Effective vs Magician
+145,+Deadly vs Magician
+146,+Effective vs Priestess
+147,+Deadly vs Priestess
+148,+Effective vs Empress
+149,+Deadly vs Empress
+150,+Effective vs Emperor
+151,+Deadly vs Emperor
+152,+Effective vs Priestess
+153,+Deadly vs Priestess
+154,+Effective vs Lovers
+155,+Deadly vs Lovers
+156,+Effective vs Chariot
+157,+Deadly vs Chariot
+158,+Effective vs Justice
+159,+Deadly vs Justice
+160,+Effective vs Hermit
+161,+Deadly vs Hermit
+162,+Effective vs Fortune
+163,+Deadly vs Fortune
+164,+Effective vs Strength
+165,+Deadly vs Strength
+166,+Effective vs Hanged
+167,+Deadly vs Hanged Man
+168,+Effective vs Death
+169,+Deadly vs Death
+170,+All ailments (low)
+171,+All ailments (med)
+172,+All ailments (high)
+173,Strengthens Fire attacks
+174,Strengthens Ice attacks
+175,Strengthens Elec attacks
+176,Strengthens Wind attacks
+177,Counter phys (low odds)
+178,Counter phys (med odds)
+179,Counter phys (high odds)
+180,+Auto-Tarukaja
+181,+Auto-Rakukaja
+182,+Auto-Sukukaja
+183,+Charm Resist
+184,+Distress Resist
+185,+Panic Resist
+186,+Fear Resist
+187,+Rage Resist
+188,+Poison Resist

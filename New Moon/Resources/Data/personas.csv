@@ -1,0 +1,206 @@
+id_dec,id_hex,name
+1,001,Orpheus
+2,002,Susano-o
+3,003,Flauros
+4,004,Loki
+5,005,Nekomata
+6,006,Pyro Jack
+7,007,Jack Frost
+8,008,Scathach
+9,009,Rangda
+10,00A,Nata Taishi
+11,00B,Cu Chulainn
+12,00C,Ose
+13,00D,Kusi Mitama
+14,00E,Apsaras
+15,00F,Laksmi
+16,010,Parvati
+17,011,Kikuri-Hime
+18,012,Sati
+19,013,Sarasvati
+20,014,Unicorn
+21,015,Cybele
+22,016,Skadi
+23,017,Hariti
+24,018,Kali
+25,019,Ganga
+26,01A,Taraka
+27,01B,Lamia
+28,01C,Odin
+29,01D,King Frost
+30,01E,Okuninushi
+31,01F,Kingu
+32,020,Raja Naga
+33,021,Forneus
+34,022,Kohryu
+35,023,Mithra
+36,024,Daisoujou
+37,025,Ananta
+38,026,Omoikane
+39,027,Principality
+40,028,Raphael
+41,029,Titania
+42,02A,Oberon
+43,02B,Narcissus
+44,02C,Queen Mab
+45,02D,Leanan Sidhe
+46,02E,Pixie
+47,02F,Uriel
+48,030,Surt
+49,031,Throne
+50,032,Ares
+51,033,Titan
+52,034,Chimera
+53,035,Ara Mitama
+54,036,Valkyrie
+55,037,Melchizedek
+56,038,Dominion
+57,039,Siegfried
+58,03A,Virtue
+59,03B,Power
+60,03C,Archangel
+61,03D,Angel
+62,03E,Alilat
+63,03F,Arahabaki
+64,040,Nebiros
+65,041,Decarabia
+66,042,Kurama Tengu
+67,043,Yomotsu Shikome
+68,044,Naga
+69,045,Norn
+70,046,Atropos
+71,047,Orobas
+72,048,Lachesis
+73,049,Saki Mitama
+74,04A,Eligor
+75,04B,Clotho
+76,04C,Fortuna
+77,04D,Thor
+78,04E,Bishamonten
+79,04F,Take-Mikazuchi
+80,050,Jikokuten
+81,051,Hanuman
+82,052,Koumokuten
+83,053,Zouchouten
+84,054,Attis
+85,055,Vasuki
+86,056,Orthrus
+87,057,Take-Minakata
+88,058,Ubelluris
+89,059,Inugami
+90,05A,Thanatos
+91,05B,Alice
+92,05C,Seth
+93,05D,Mot
+94,05E,Samael
+95,05F,Vetala
+96,060,Loa
+97,061,Pale Rider
+98,062,Michael
+99,063,Byakko
+100,064,Suzaku
+101,065,Seiryuu
+102,066,Nigi Mitama
+103,067,Genbu
+104,068,Beelzebub
+105,069,Mother Harlot
+106,06A,Abaddon
+107,06B,Lilith
+108,06C,Incubus
+109,06D,Succubus
+110,06E,Lilim
+111,06F,Chi You
+112,070,Shiva
+113,071,Masakado
+114,072,Seiten Taisei
+115,073,Yamata-no-orochi
+116,074,Oumitsunu
+117,075,Helel
+118,076,Sandalphon
+119,077,Black Frost
+120,078,Garuda
+121,079,Kaiwan
+122,07A,Ganesha
+123,07B,Nandi
+124,07C,Chernobog
+125,07D,Dionysus
+126,07E,Narasimha
+127,07F,Girimehkala
+128,080,Gurr
+129,081,Legion
+130,082,Berith
+131,083,Saturnus
+132,084,Vishnu
+133,085,Barong
+134,086,Jatayu
+135,087,Horus
+136,088,Quetzalcoatl
+137,089,Yatagarasu
+138,08A,Messiah
+139,08B,Asura
+140,08C,Metatron
+141,08D,Satan
+142,08E,Gabriel
+143,08F,Hokuto Seikun
+144,090,Trumpeter
+145,091,Anubis
+146,092,Slime
+147,093,Hua Po
+148,094,High Pixie
+149,095,Yaksini
+150,096,Shiisaa
+151,097,Thoth
+152,098,Alp
+153,099,Mothman
+154,09A,Kumbhanda
+155,09B,Empusa
+156,09C,Rakshasa
+157,09D,Hecatoncheires
+158,09E,Hell Biker
+159,09F,Ghoul
+160,0A0,Yurlungur
+161,0A1,Pazuzu
+162,0A2,Mara
+163,0A3,Kartikeya
+164,0A4,Baal Zebul
+165,0A5,Suparna
+166,0A6,Lucifer
+167,0A7,Nidhogger
+168,0A8,Atavaka
+169,0A9,Orpheus Telos
+176,0B0,Nothing  (Freezes the game)
+177,0B1,Nothing  (Freezes the game)
+178,0B2,Nothing  (Freezes the game)
+179,0B3,Nothing  (Freezes the game)
+180,0B4,Nothing  (Freezes the game)
+181,0B5,Nothing  (Freezes the game)
+182,0B6,Nothing  (Freezes the game)
+183,0B7,Nothing  (Freezes the game)
+184,0B8,Nothing  (Freezes the game)
+185,0B9,Nothing  (Freezes the game)
+186,0BA,Nothing  (Freezes the game)
+187,0BB,Nothing  (Freezes the game)
+188,0BC,Nothing  (Freezes the game)
+189,0BD,Nothing  (Freezes the game)
+190,0BE,Nothing  (Freezes the game)
+191,0BF,Universe (Freezes the game)
+192,0C0,Io
+193,0C1,Isis
+194,0C2,Palladion
+195,0C3,Athena
+196,0C4,Penthesilea
+197,0C5,Artemisia
+198,0C6,Hermes
+199,0C7,Trismegistus
+200,0C8,Lucia (The normal Cerberus appears when skills are used in-battle)
+201,0C9,Juno  (The normal Cerberus appears when skills are used in-battle)
+202,0CA,Polydeuces
+203,0CB,Caesar
+204,0CC,Nemesis
+205,0CD,Kala-Nemi
+206,0CE,Castor
+207,0CF,Cerberus
+208,0D0,"Hypnos (Causes a lot of ""TLB miss"" errors, but can be used normally. Freezes the game when used on a real PS2)"
+209,0D1,"Moros  (Causes a lot of ""TLB miss"" errors, but can be used normally. Freezes the game when used on a real PS2)"
+210,0D2,"Medea  (Causes a lot of ""TLB miss"" errors, but can be used normally. Freezes the game when used on a real PS2)"
+211,0D3,Psyche

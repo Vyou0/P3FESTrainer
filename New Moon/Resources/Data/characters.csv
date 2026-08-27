@@ -1,0 +1,10 @@
+slot_id,name_journey,name_answer,weapon_addr_hex,armor_body_addr_hex,armor_feet_addr_hex,accessory_addr_hex
+1,Yukari Takeba,Yukari Takeba,0083406C,00834080,00834094,008340A8
+2,Aigis,N/A,008343D0,008343E4,008343F8,0083440C
+3,Mitsuru Kirijo,Mitsuru Kirijo,00834734,00834748,0083475C,00834770
+4,Junpei Iori,Junpei Iori,00834A98,00834AAC,00834AC0,00834AD4
+5,Fuuka Yamagishi,Fuuka Yamagishi,00834DFC,00834E10,00834E24,00834E38
+6,Akihiko Sanada,Akihiko Sanada,00835160,00835174,00835188,0083519C
+7,Ken Amada,Ken Amada,008354C4,008354D8,008354EC,00835500
+8,Shinjiro Aragaki,Metis,00835828,0083583C,00835850,00835864
+9,Koromaru,Koromaru,00835B8C,00835BA0,00835BB4,00835BC8

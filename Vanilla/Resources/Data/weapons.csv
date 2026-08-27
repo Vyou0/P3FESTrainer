@@ -1,0 +1,256 @@
+id,name,weapon_type_id,weapon_type_name,attack,accuracy,attribute_id
+1,Imitation Katana,1,Two-handed sword,38,90,0
+2,Outenta Mitsuyo ,1,Two-handed sword,213,91,0
+3,Mikazuki Munechika,1,Two-handed sword,182,91,0
+4,Myohou Muramasa,1,Two-handed sword,400,99,142
+5,Onimaru Kunitsuna,1,Two-handed sword,121,91,0
+6,Juzumaru,1,Two-handed sword,42,91,0
+7,Kishido Blade,1,Two-handed sword,40,90,0
+8,Two-handed Sword,1,Two-handed sword,116,90,0
+9,Claymore,1,Two-handed sword,204,90,0
+10,Deathbringer,1,Two-handed sword,246,90,0
+11,Apocalypse,1,Two-handed sword,295,90,0
+12,Balmung,1,Two-handed sword,310,93,0
+13,Bastard Sword,1,Two-handed sword,57,90,0
+14,0x00E,1,Two-handed sword,0,0,0
+15,0x00F,1,Two-handed sword,0,0,0
+16,Dark Slayer,1,Two-handed sword,141,90,0
+17,Galahad's Sword,1,Two-handed sword,351,90,0
+18,Zweihander,1,Two-handed sword,284,90,0
+19,Basic Katana,1,Two-handed sword,0,0,0
+20,Basic Sword,1,Two-handed sword,0,0,0
+21,Basic Longsword,1,Two-handed sword,0,0,0
+22,Spiked Bat,1,Two-handed sword,100,99,0
+23,Laevateinn,1,Two-handed sword,340,83,0
+24,Masakado's Katana,1,Two-handed sword,450,100,0
+25,All-purpose Katana,1,Two-handed sword,58,90,0
+26,0x01A,1,Two-handed sword,0,0,0
+27,Tsubaki-maru,1,Two-handed sword,174,90,0
+28,Raikou,1,Two-handed sword,86,90,0
+29,Tobi-botaru,1,Two-handed sword,309,90,0
+30,0x01E,1,Two-handed sword,0,0,0
+31,0x01F,1,Two-handed sword,0,0,0
+32,Rapier,2,One-handed Sword,37,92,0
+33,Elegant Fleuret,2,One-handed Sword,85,92,0
+34,Skrep,2,One-handed Sword,167,92,0
+35,Damascus Rapier,2,One-handed Sword,295,92,0
+36,Main Gauche,2,One-handed Sword,235,90,0
+37,Night Falcon,2,One-handed Sword,57,93,0
+38,Saber,2,One-handed Sword,55,92,0
+39,Tizona,2,One-handed Sword,136,92,0
+40,Silver Saber,2,One-handed Sword,111,92,0
+41,Sol Blade,2,One-handed Sword,246,93,0
+42,0x02A,2,One-handed Sword,0,0,0
+43,Ascalon,2,One-handed Sword,271,92,0
+44,Shortsword,2,One-handed Sword,35,92,0
+45,Gimlet,2,One-handed Sword,335,92,0
+46,Gladius,2,One-handed Sword,39,92,0
+47,Sin Blade,2,One-handed Sword,195,92,0
+48,Aroundight,2,One-handed Sword,141,93,0
+49,Excalibur,2,One-handed Sword,400,99,0
+50,Mother Rapier,2,One-handed Sword,0,0,0
+51,Mother Saber,2,One-handed Sword,0,0,0
+52,Mother Epee,2,One-handed Sword,0,0,0
+53,Steel Pipe,2,One-handed Sword,100,99,0
+54,Deus Xiphos,2,One-handed Sword,450,94,0
+55,Lucifer's Blade,2,One-handed Sword,450,100,0
+56,0x038,2,One-handed Sword,0,0,0
+57,0x039,2,One-handed Sword,0,0,0
+58,0x03A,2,One-handed Sword,0,0,0
+59,0x03B,2,One-handed Sword,0,0,0
+60,0x03C,2,One-handed Sword,0,0,0
+61,0x03D,2,One-handed Sword,0,0,0
+62,0x03E,2,One-handed Sword,0,0,0
+63,0x03F,2,One-handed Sword,0,0,0
+64,0x040,32,Gloves,0,0,0
+65,Sonic Fist,32,Gloves,77,97,0
+66,Fists of Fury,32,Gloves,153,97,0
+67,Supreme Gloves,32,Gloves,268,97,0
+68,Pugilist's Fists,32,Gloves,224,98,0
+69,Golden Gloves,32,Gloves,318,98,0
+70,Champion Gloves,32,Gloves,85,97,0
+71,Kaiser Knuckles,32,Gloves,124,97,0
+72,Crusher Fist,32,Gloves,246,97,0
+73,Brass Knuckles,32,Gloves,51,97,0
+74,Blood Baghnakh,32,Gloves,186,98,0
+75,Titanic Knuckles,32,Gloves,214,97,0
+76,Wings of Vanth,32,Gloves,304,97,0
+77,Beast Fangs,32,Gloves,102,97,0
+78,Wicked Cestus,32,Gloves,178,97,0
+79,Bladefist,32,Gloves,80,98,0
+80,Double Ziggurat,32,Gloves,400,99,0
+81,Dragon Fangs,32,Gloves,274,97,0
+82,Root Gloves,32,Gloves,0,0,0
+83,Root Knuckles,32,Gloves,0,0,0
+84,Root Cestus,32,Gloves,0,0,0
+85,Jack's Gloves,32,Gloves,100,99,0
+86,Sabazios,32,Gloves,340,85,0
+87,Evil Gloves,32,Gloves,450,100,0
+88,0x058,32,Gloves,0,0,0
+89,0x059,32,Gloves,0,0,0
+90,0x05A,32,Gloves,0,0,0
+91,0x05B,32,Gloves,0,0,0
+92,0x05C,32,Gloves,0,0,0
+93,0x05D,32,Gloves,0,0,0
+94,0x05E,32,Gloves,0,0,0
+95,0x05F,32,Gloves,0,0,0
+96,Staff of Guts,16,Axe,189,88,0
+97,0x061,16,Axe,0,0,0
+98,Megaton Rod,16,Axe,213,88,0
+99,0x063,16,Axe,0,0,0
+100,Night Stalker,16,Axe,190,89,0
+101,Staff of Wrath,16,Axe,335,89,0
+102,0x066,16,Axe,0,0,0
+103,Cross Rod,16,Axe,88,88,0
+104,Guillotine Axe,16,Axe,257,88,0
+105,Heavy Axe,16,Axe,147,88,0
+106,Executioner's Axe,16,Axe,269,89,0
+107,Celtis,16,Axe,368,88,0
+108,0x06C,16,Axe,0,0,0
+109,Ogre Hammer,16,Axe,182,88,0
+110,Gaea's Grace,16,Axe,319,88,0
+111,Charun's Hammer,16,Axe,302,89,0
+112,Colossus,16,Axe,297,88,0
+113,Golden Crusher,16,Axe,400,99,0
+114,Origin Club,16,Axe,0,0,0
+115,Origin Axe,16,Axe,0,0,0
+116,Origin Hammer,16,Axe,0,0,0
+117,Bus Stop Sign,16,Axe,100,99,0
+118,Corpse Rod,16,Axe,450,100,0
+119,Mjolnir,16,Axe,340,80,0
+120,Crescent Rod,16,Axe,120,88,0
+121,0x079,16,Axe,0,0,0
+122,0x07A,16,Axe,0,0,0
+123,0x07B,16,Axe,0,0,0
+124,0x07C,16,Axe,0,0,0
+125,0x07D,16,Axe,0,0,0
+126,0x07E,16,Axe,0,0,0
+127,0x07F,16,Axe,0,0,0
+128,Omega Spear,8,Spear,134,95,0
+129,Ranseur,8,Spear,224,95,0
+130,Lance of Death,8,Spear,186,95,0
+131,Friuli Spear,8,Spear,110,96,0
+132,Rhongowennan,8,Spear,167,96,0
+133,Gae Bolg,8,Spear,260,85,0
+134,Glaive,8,Spear,0,0,0
+135,Treason Couse,8,Spear,78,95,0
+136,Sexy Lance,8,Spear,160,95,0
+137,Voulge,8,Spear,281,95,0
+138,Poison Glaive,8,Spear,285,95,0
+139,Yanyue Dao,8,Spear,319,95,0
+140,Cross Spear,8,Spear,129,95,0
+141,Shiden,8,Spear,0,0,0
+142,Ouka Jumonji,8,Spear,259,95,0
+143,Ote-gine,8,Spear,269,96,0
+144,Nihon-gou,8,Spear,330,96,0
+145,Tonbo-kiri,8,Spear,400,99,0
+146,Foundation Spear,8,Spear,0,0,0
+147,Foundation Glaive,8,Spear,0,0,0
+148,Foundation Pike,8,Spear,0,0,0
+149,Scrub Brush,8,Spear,100,99,0
+150,Gungnir,8,Spear,310,97,0
+151,Pinaka,8,Spear,450,100,0
+152,0x098,8,Spear,0,0,0
+153,0x099,8,Spear,0,0,0
+154,0x09A,8,Spear,0,0,0
+155,0x09B,8,Spear,0,0,0
+156,0x09C,8,Spear,0,0,0
+157,0x09D,8,Spear,0,0,0
+158,0x09E,8,Spear,0,0,0
+159,0x09F,8,Spear,0,0,0
+160,Short Bow,4,Bow,38,88,0
+161,Uta,4,Bow,111,88,0
+162,Composite Bow,4,Bow,190,88,0
+163,Bow of Affection,4,Bow,86,89,0
+164,0x0A4,4,Bow,0,0,0
+165,0x0A5,4,Bow,0,0,0
+166,Siren's Song,4,Bow,55,88,0
+167,Kamatha,4,Bow,135,88,0
+168,Great Bow,4,Bow,245,88,0
+169,Pleiades,4,Bow,116,89,0
+170,Lightning Bow,4,Bow,281,88,0
+171,0x0AB,4,Bow,0,0,0
+172,Practice Bow,4,Bow,36,88,0
+173,Shigetou-yumi,4,Bow,83,88,0
+174,Higo-yumi,4,Bow,167,88,0
+175,Hero's Bow,4,Bow,269,88,0
+176,Mary's Resolve,4,Bow,400,99,0
+177,Yoichi's Bow,4,Bow,318,88,0
+178,Source Bow,4,Bow,0,0,0
+179,Source Longbow,4,Bow,0,0,0
+180,Source Yumi,4,Bow,0,0,0
+181,Toy Bow,4,Bow,100,99,0
+182,Sarnga,4,Bow,400,90,0
+183,Quintessence Bow,4,Bow,450,100,0
+184,0x0B8,4,Bow,0,0,0
+185,0x0B9,4,Bow,0,0,0
+186,0x0BA,4,Bow,0,0,0
+187,0x0BB,4,Bow,0,0,0
+188,0x0BC,4,Bow,0,0,0
+189,0x0BD,4,Bow,0,0,0
+190,0x0BE,4,Bow,0,0,0
+191,0x0BF,4,Bow,0,0,0
+192,0x0C0,64,Gun,0,0,0
+193,0x0C1,64,Gun,0,0,0
+194,Orgone Rifle,64,Gun,174,92,0
+195,Maxima Sniper,64,Gun,309,92,0
+196,Kiss of Athena,64,Gun,260,92,0
+197,Pandemonium,64,Gun,331,92,0
+198,0x0C6,64,Gun,0,0,0
+199,Albireo,64,Gun,116,92,0
+200,Medusa,64,Gun,204,92,0
+201,Six-shot,64,Gun,147,93,0
+202,Megadeath,64,Gun,0,0,0
+203,Orgilabeus,64,Gun,85,92,0
+204,0x0CC,64,Gun,0,0,0
+205,Grenade Launcher,64,Gun,141,92,0
+206,Railgun,64,Gun,246,92,0
+207,0x0CF,64,Gun,0,0,0
+208,Antimatter Cannon,64,Gun,400,99,0
+209,Brighid's Flame,64,Gun,315,93,0
+210,Nucleus Rifle,64,Gun,0,0,0
+211,Nucleus SMG,64,Gun,0,0,0
+212,Nucleus Cannon,64,Gun,0,0,0
+213,Rocket Punch,64,Gun,100,99,0
+214,Metatronius,64,Gun,450,94,0
+215,Phalanx B2,64,Gun,180,90,0
+216,Gamma Storm,64,Gun,200,96,0
+217,Axion IG,64,Gun,250,90,0
+218,Missile Launcher,64,Gun,255,99,0
+219,Fermion Cannon,64,Gun,326,95,0
+220,Assault Rifle,64,Gun,120,90,0
+221,0x0D2,64,Gun,0,0,0
+222,0x0D3,64,Gun,0,0,0
+223,0x0D4,64,Gun,0,0,0
+224,0x0E0,128,Knife,0,0,0
+225,Raven Claw,128,Knife,230,95,0
+226,Kunai,128,Knife,0,0,0
+227,Blitz Kunai,128,Knife,160,95,0
+228,Gale Kodachi,128,Knife,0,0,0
+229,Kunai of Carnage,128,Knife,105,95,0
+230,0x0E6,128,Knife,0,0,0
+231,Karasu-maru,128,Knife,195,96,0
+232,Shadowrend,128,Knife,272,95,0
+233,0x0E9,128,Knife,0,0,0
+234,0x0EA,128,Knife,0,0,0
+235,0x0EB,128,Knife,0,0,0
+236,Sword Breaker,128,Knife,224,95,0
+237,Silver Moon,128,Knife,186,95,0
+238,Sylph Blade,128,Knife,129,95,0
+239,Pesh Kabz,128,Knife,258,95,0
+240,Athame,128,Knife,304,95,0
+241,Grand Slasher,128,Knife,400,99,0
+242,Elementary Kunai,128,Knife,0,0,0
+243,Elementary Knife,128,Knife,0,0,0
+244,Bone,128,Knife,100,99,0
+245,Vajra,128,Knife,450,100,0
+246,Elementary Mask,128,Knife,0,0,0
+247,0x0F7,128,Knife,0,0,0
+248,0x0F8,128,Knife,0,0,0
+249,0x0F9,128,Knife,0,0,0
+250,0x0FA,128,Knife,0,0,0
+251,0x0FB,128,Knife,0,0,0
+252,0x0FC,128,Knife,0,0,0
+253,0x0FD,128,Knife,0,0,0
+254,Bare Hand,1,Two-handed sword,1,1,0
+255,0x0FF,128,Knife,0,0,0

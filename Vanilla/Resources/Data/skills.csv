@@ -1,0 +1,547 @@
+id_dec,id_hex,name
+1,001,Agi
+2,002,Agilao
+3,003,Agidyne
+4,004,Maragi
+5,005,Maragion
+6,006,Maragidyne
+7,007,Maralagidyne (same as Maragidyne only with green flames)
+8,008,0x008 (useless skill)
+9,009,Ragnarok
+10,00A,Garu
+11,00B,Garula
+12,00C,Garudyne
+13,00D,Magaru
+14,00E,Magarula
+15,00F,Magarudyne
+16,010,0x010 (useless skill)
+17,011,0x011 (useless skill)
+18,012,Panta Rhei
+19,013,Bufu
+20,014,Bufula
+21,015,Bufudyne
+22,016,Mabufu
+23,017,Mabufula
+24,018,Mabufudyne
+25,019,0x019 (useless skill)
+26,01A,0x01A (useless skill)
+27,01B,Niflheim
+28,01C,Zio
+29,01D,Zionga
+30,01E,Ziodyne
+31,01F,Mazio
+32,020,Mazionga
+33,021,Maziodyne
+34,022,0x22 (useless skill)
+35,023,0x23 (useless skill)
+36,024,Thunder Reign
+37,025,Megido
+38,026,Megidola
+39,027,Megidolaon
+40,028,Last Resort
+41,029,0x029 (useless skill)
+42,02A,0x02A (useless skill)
+43,02B,Black Viper
+44,02C,Morning Star
+45,02D,Hama
+46,02E,Mahama
+47,02F,Hamaon
+48,030,Mahamaon
+49,031,0x031 (useless skill)
+50,032,Samsara
+51,033,Mudo
+52,034,Mamudo
+53,035,Mudoon
+54,036,Mamudoon
+55,037,0x037 (useless skill)
+56,038,Die for Me!
+57,039,Marin Karin
+58,03A,Sexy Dance
+59,03B,Bewilder
+60,03C,Earie Sound
+61,03D,Pulinpa
+62,03E,Tentarafoo
+63,03F,Evil Touch
+64,040,Evil Smile
+65,041,Ghastly Wail
+66,042,Provoke
+67,043,Infuriate
+68,044,Poisma
+69,045,Poison Mist
+70,046,Virus Breath
+71,047,0x047 (useless skill)
+72,048,0x048 (useless skill)
+73,049,Foul Breath
+74,04A,Stagnant Air
+75,04B,Life Drain
+76,04C,Spirit Drain
+77,04D,0x04D (useless skill)
+78,04E,0x04E (useless skill)
+79,04F,0x04F (useless skill)
+80,050,Maragidyne (Elizabeth's modded spell)
+81,051,Magarudyne (Elizabeth's modded spell)
+82,052,Mabufudyne (Elizabeth's modded spell)
+83,053,Maziodyne (Elizabeth's modded spell)
+84,054,Megidolaon (Elizabeth's Megidolaon - 9999 damage to all foes)
+85,055,Mahamaon
+86,056,Mamudoon
+87,057,Sexy Dance
+88,058,Earie Sound
+89,059,Tentarafoo
+90,05A,Evil Smile
+91,05B,Poison Mist
+92,05C,Holy Arrow
+93,05D,LIfe Drain
+94,05E,Spirit Drain
+95,05F,0x05F (Last Resort - damages both the party and enemies)
+96,060,"Death (""The Journey"" Final/Last Boss's Ultimate Spell - 9999 damage to a single foe)"
+97,061,Yell (Fully restores Minato's HP)
+98,062,Yell (Fully restores Minato's HP)
+99,063,Death (Always 9999 damage+Critical Hit every time)
+100,064,Death (Almighty attack that always misses...no comment -_-')
+101,065,Death (useless skill)
+102,066,Moonless Gown (useless skill)
+103,067,Moonless Gown (useless skill)
+104,068,Summon (useless skill)
+105,069,Slash Attack (useless skill)
+106,06A,Pierce Attack (useless skill)
+107,06B,Strike Attack (useless skill)
+108,06C,Yell (Fully restores Minato's HP)
+109,06D,Pierce Attack (useless skill)
+110,06E,Fire Attack (useless skill)
+111,06F,Almighty Attack (like normal attack but it attacks all and has almighty properties+a really nice blue wave graphic effect)
+112,070,Bash
+113,071,Assault Dive
+114,072,Kill Rush
+115,073,Swift Strike
+116,074,Sonic Punch
+117,075,Heat Wave
+118,076,Gigantic Fist
+119,077,Akasha Arts
+120,078,God's Hand
+121,079,Cleave
+122,07A,Fatal End
+123,07B,Getsu-ei
+124,07C,Zan-ei
+125,07D,Mighty Swing
+126,07E,Double fangs
+127,07F,Blade of Fury
+128,080,Deathbound
+129,081,Tempest Slash
+130,082,Heaven's Blade
+131,083,Pralaya
+132,084,Power Slash
+133,085,Gale Slash
+134,086,Brave Blade
+135,087,Herculean Strike
+136,088,Vicious Strike
+137,089,Single Shot
+138,08A,Twin Shot
+139,08B,Holy Arrow
+140,08C,Torrent Shot
+141,08D,Arrow Rain
+142,08E,Myriad Arrows
+143,08F,Primal Force
+144,090,Vorpal Blade
+145,091,Weary Thrust
+146,092,Cruel Attack
+147,093,Vile Assault
+148,094,Poison Arrow
+149,095,Weary Thrust (useless skill)
+150,096,Vorpal Blade (useless skill)
+151,097,0x097 (filler skill)
+152,098,0x098 (filler skill)
+153,099,0x099 (filler skill)
+154,09A,0x09A (filler skill)
+155,09B,0x09B (filler skill)
+156,09C,0x09C (filler skill)
+157,09D,0x09D (filler skill)
+158,09E,0x09E (filler skill)
+159,09F,0x09F (filler skill)
+256,100,Summer Dream (knocks all enemies down) Default Fusion Spell
+257,101,Summer Dream (knocks all allies down)
+258,102,Summer Dream (knocks everyone down)
+259,103,Summer Dream (always No Effect!)
+260,104,Summer Dream (fully restores Minato's HP and SP)
+261,105,Summer Dream (fully restores enemies HP and SP)
+262,106,Summer Dream (fully restores HP and SP to party members as well as enemies)
+263,107,Summer Dream (damages Minato)
+264,108,Summer Dream (inflicts 2000 damage on all enemies)
+265,109,Summer Dream (inflicts ailments on everyone)
+266,10A,Summer Dream (targets Minato but always misses)
+267,10B,Summer Dream (targets Minato but always misses)
+268,10C,Summer Dream (instantly kills a single enemy)
+269,10D,Summer Dream (halves all foes HP and SP)
+270,10E,Summer Dream (halves everyones HP and SP)
+271,10F,Summer Dream (reduces all foes HP to 1)
+272,110,"Jack Brothers (Knocks all foes down, medium odds)"
+273,111,Ardhanari (Deals massive Fire damage to all foes)
+274,112,Trickster Inflicts random ailments on all foes)
+275,113,"Infinity (Invulnerability for 1 turn, entire party)"
+276,114,"Valhalla (Invulnerability for 1 turn, 1 ally but...)"
+277,115,Summer Dream (Unpredictable effect)
+278,116,Armageddon (Deals ultimate damage to all foes)
+279,117,"Cadenza (Restores 50% HP and evasion up, entire party)"
+280,118,Scarlet Havoc (Deals heavy Slash damage to all foes)
+281,119,"Frolic (Restores party's HP, but sometimes...)"
+282,11A,"Dreamfest (Charms all foes, high odds)"
+283,11B,"King and I (Deals medium Ice damage, and Freezes all foes)"
+284,11C,Best Friends (Combines all -kaja skills on 1 ally)
+285,11D,Shadow Hound (Deals heavy Strike damage to all foes)
+286,11E,Thunder Call (Deals heavy Electricity damage and Shocks all foes)
+287,11F,Last Judge (Deals severe Almighty damage to all foes)
+288,120,Raktapaksha (Knocks Down all foes+Dekaja)
+289,121,Justice (Halves all foes HP via Light magic)
+290,122,Trickster (always Command Ignored+charm self)
+291,123,0x123 (useless skill)
+292,124,0x124 (useless skill)
+293,125,"Primal Darkness (""The Answer"" Final Boss's almighty attack with a nice graphic effect, attacks a single foe for ""The Journey"" and all foes for ""The Answer"" - This skill is fine to use in ""The Journey"" but it WILL freeze the game for 30+ seconds if used in ""The Answer"")"
+294,126,Dark Embrace (useless skill)
+295,127,"Primal Darkness (useless skill for ""The Journey"" but works without a problem for ""The Answer"", attacks all foes)"
+296,128,"Primal Darkness (useless skill for ""The Journey"" but works without a problem for ""The Answer"", attacks all foes)"
+297,129,0x129 (useless skill)
+298,12A,(useless skill)
+299,12B,(useless skill)
+300,12C,(useless skill)
+301,12D,(useless skill)
+302,12E,(useless skill)
+303,12F,(useless skill)
+304,130,Pierce Attack (useless skill)
+305,131,Fire Attack (useless skill)
+306,132,Summon (useless skill)
+307,133,Summon (useless skill)
+308,134,Armed&Ready (turns Minato into a bomb ready to explode)
+309,135,Sacrifice (same as Last Resort)
+310,136,Arcana Shift (useless skill)
+311,137,Arcana Shift (useless skill)
+312,138,Arcana Shift (useless skill)
+313,139,Arcana Shift (useless skill)
+314,13A,Arcana Shift
+315,13B,Arcana Shift
+316,13C,Arcana Shift
+317,13D,Arcana Shift
+318,13E,Arcana Shift
+319,13F,Night Queen
+320,140,All-Out 2 (mimics the normal all-out attack performed by party members)
+321,141,All-Out 3 (mimics the normal all-out attack performed by party members)
+322,142,All-Out 4 (mimics the normal all-out attack performed by party members)
+323,143,Plume of Dusk (useless skill)
+324,144,Analyze (useless skill)
+325,145,"Oracle (Fuuka's Oracle, targets all foes and has random effects)"
+326,146,Full Analysis (useless skill)
+327,147,"Oracle (Fuuka's Oracle, targets entire party, fully restoring HP)"
+328,148,"Oracle (Fuuka's Oracle, targets entire party, fully restoring SP)"
+329,149,"Oracle (Fuuka's Oracle, targets entire party, fully restoring both HP and SP)"
+330,14A,Oracle
+331,14B,Oracle
+332,14C,All-Out 2L
+333,14D,All-Out 3L
+334,14E,All-Out 4L
+335,14F,Support Scan
+336,150,Third Eye (useless skill)
+337,151,Mind DJ (useless skill)
+338,152,DJ Queen (useless skill)
+339,153,Escape Route (useless skill)
+340,154,Healing Wave (useless skill)
+341,155,Summon (useless skill)
+342,156,Orgia Mode (useless skill)
+343,157,"Great Seal (Unleashes the power within you to seal Nyx) (doesn't work, so don't bother trying)"
+344,158,0x158 (useless skill)
+345,159,0x159 (useless skill)
+346,15A,(useless skill)
+347,15B,Wind Attack
+348,15C,Elec Attack
+349,15D,Fire Attack
+350,15E,Pierce Attack
+351,15F,Strike Attack
+352,160,Summon (useless skill)
+353,161,Summon (useless skill)
+354,162,Summon (useless skill)
+355,163,Prophecy of Ruin (almost always inflicts the Fear ailment on all foes+really cool graveyard graphic effect)
+356,164,Heartbreaker (almighty attack that hits all foes+nice heart crack graphic effect)
+357,165,Unite (useless skill)
+358,166,Separate (useless skill)
+359,167,Pierce Attack (useless skill)
+360,168,Pierce Attack (useless skill)
+361,169,"Samarecarm (tries to summon Metis back to life, doesn't work for ""The Journey""....haven't tried yet for ""The Answer"")"
+362,16A,Samarecarm
+363,16B,Charge
+364,16C,Giga Spark
+365,16D,Wheel of Fortune
+366,16E,Wheel of Fortune
+367,16F,Wheel of Fortune
+368,170,Paradigm Shift (Nix's skill - changes elemental affinities) (not really)
+369,171,Wheel of Fortune (similar to Prophecy of Ruin)
+370,172,Wheel of Fortune (similar to Heartbreaker)
+371,173,E Attack Up (raises attack for the entire party)
+372,174,P Attack Up (raises all foes' attack)
+373,175,E Attack Down (lowers attack for the entire party)
+374,176,P Attack Down (lowers all foes' attack)
+375,177,E Defense Up (raises defense for the entire party
+376,178,P Defense Up (raises all foes' defense)
+377,179,E Defense Down (lowers defense for the entire party)
+378,17A,P Defense Down
+379,17B,E Panic
+380,17C,P Panic
+381,17D,E Rage
+382,17E,P Rage
+383,17F,E Distress
+384,180,P Distress
+385,181,E Fear (applies the Fear ailment on the entire party)
+386,182,P Fear (applies the Fear ailment on all foes)
+387,183,E Damage Low (deals low damage to the entire party)
+388,184,P Damage Low (deals low damage to all foes)
+389,185,E Damage Mid (deals medium damage to the entire party)
+390,186,P Damage Mid (deals medium damage to all foes)
+391,187,E Damage High (deals high damage to the entire party)
+392,188,P Damage High (deals high damage to all foes)
+393,189,E Heal (heals the entire party)
+394,18A,P Heal (heals all foes)
+395,18B,Almighty Attack
+396,18C,Arcana Shift
+397,18D,Arcana Shift
+398,18E,Arcana Shift
+399,18F,Arcana Shift
+400,190,Band Aid
+401,191,Medicine
+402,192,Bead
+403,193,Snuff Soul
+404,194,Chewing Soul
+405,195,Precious Egg
+406,196,Soma
+407,197,(filler skill)
+408,198,(filler skill)
+409,199,(filler skill)
+410,19A,0x19A (filler skill)
+411,19B,Muscle Drink
+412,19C,Odd Morsel
+413,19D,Rancid Gravy
+414,19E,Powerful Drug
+415,19F,Cold Medicine
+416,1A0,Energy Drink
+438,1B6,Homunculus
+439,1B7,Plume of Dusk
+464,1D0,Resist Slash
+465,1D1,Null Slash
+466,1D2,Repel Slash
+467,1D3,Absorb Slash
+468,1D4,Resist Strike
+469,1D5,Null Strike
+470,1D6,Repel Strike
+471,1D7,Absorb Strike
+472,1D8,Resist Pierce
+473,1D9,Null Pierce
+474,1DA,Repel Pierce
+475,1DB,Absorb Pierce
+476,1DC,Resist Fire
+477,1DD,Null Fire
+478,1DE,Repel Fire
+479,1DF,Absorb Fire
+480,1E0,Resist Ice
+481,1E1,Null Ice
+482,1E2,Repel Ice
+483,1E3,Absorb Ice
+484,1E4,Resist Elec
+485,1E5,Null Elec
+486,1E6,Repel Elec
+487,1E7,Absorb Elec
+488,1E8,Resist Wind
+489,1E9,Null Wind
+490,1EA,Repel Wind
+491,1EB,Absorb Wind
+492,1EC,Resist Light
+493,1ED,Null Light
+494,1EE,Repel Light
+495,1EF,Resist Dark
+496,1F0,Null Dark
+497,1F1,Repel Dark
+498,1F2,Null Charm
+499,1F3,Null Distress
+500,1F4,Null Panic
+501,1F5,Null Fear
+502,1F6,Null Rage
+503,1F7,Null Freeze
+504,1F8,Null Shock
+505,1F9,Null Poison
+506,1FA,UnshaKen  Will
+507,1FB,Masakados
+508,1FC,Dodge Slash
+509,1FD,Evade Slash
+510,1FE,Dodge Strike
+511,1FF,Evade Strike
+512,200,Dodge Pierce
+513,201,Evade Pierce
+514,202,Dodge Fire
+515,203,Evade Fire
+516,204,Dodge Ice
+517,205,Evade Ice
+518,206,Dodge Wind
+519,207,Evade Wind
+520,208,Dodge Elec
+521,209,Evade Elec
+522,20A,Stamina Up 1
+523,20B,Stamina Up 2
+524,20C,Stamina Up 3
+525,20D,0x20D (filler skill)
+526,20E,Premonition
+527,20F,Angelic Grace
+528,210,Fire Boost
+529,211,Fire Amp
+530,212,Ice Boost
+531,213,Ice Amp
+532,214,Elec Boost
+533,215,Elec Amp
+534,216,Wind Boost
+535,217,Wind Amp
+536,218,Fast Retreat
+537,219,HP Up 1
+538,21A,HP Up 2
+539,21B,HP Up 3
+540,21C,SP Up 1
+541,21D,SP Up 2
+542,21E,SP Up 3
+543,21F,Raging Tiger
+544,220,Counter
+545,221,Counterstrike
+546,222,High Counter
+547,223,Regenerate 1
+548,224,Regenerate 2
+549,225,Regenerate 3
+550,226,Invigorate 1
+551,227,Invigorate 2
+552,228,Invigorate 3
+553,229,Growth 1
+554,22A,Growth 2
+555,22B,Growth 3
+556,22C,0x22C (filler skill)
+557,22D,Auto-Tarukaja
+558,22E,Auto-Rakukaja
+559,22F,Auto-Sukukaja
+560,230,Alertness
+561,231,Sharp Student
+562,232,Apt Pupil
+563,233,Ali Dance
+564,234,Firm Stance
+565,235,Spell Master
+566,236,Arms Master
+567,237,HP Up
+568,238,SP Up
+569,239,0x239 (filler skill)
+570,23A,Divine Grace
+571,23B,Endure
+572,23C,Enduring Soul
+573,23D,Heavy Master
+574,23E,Magic Skill Up
+575,23F,Physical Skill Up
+576,240,0x240 (filler skill)
+577,241,0x240 (filler skill)
+578,242,0x240 (filler skill)
+579,243,0x243 (filler skill)
+580,244,Rosary
+581,245,Prayer Beads
+582,246,Spear Master
+583,247,Bow Master
+584,248,1-handed Sword Master
+585,249,2-handed Sword Master
+586,24A,Fist Master
+587,24B,Survive Light
+588,24C,Survive Dark
+589,24D,Auto-Marakukaja
+590,24E,Auto-Matarukaja
+591,24F,Auto-Masukukaja
+592,250,Charm Boost
+593,251,Poison Boost
+594,252,Distress Boost
+595,253,Panic Boost
+596,254,Fear Boost
+597,255,Rage Boost
+602,25A,Poison Boost
+598,256,Ailment Boost
+599,257,Hama Boost
+600,258,Mudo Boost
+601,259,Endure Light
+602,25A,Endure Dark
+603,25B,0x20B (filler skill)
+604,25C,0x20C (filler skill)
+605,25D,Cool Breeze
+606,25E,Victory Cry
+607,25F,Spring of Life
+608,260,Spring of Life
+609,261,For Debug
+610,262,Fast-Heal
+611,263,Insta-Heal
+612,264,Resist Charm
+613,265,Resist Distress
+614,266,Resist Panic
+615,267,Resist Fear
+616,268,Resist Rage
+617,269,Resist Freeze
+618,26A,Resist Poison
+619,26B,Resist Poison
+620,26C,HP Up High
+621,26D,SP Up High
+622,26E,0x26E (filler skill)
+623,26F,0x26F (filler skill)
+160,0A0,+charm(low) (useless skill)
+161,0A1,+charm(med) (useless skill)
+162,0A2,+charm(high) (useless skill)
+163,0A3,+distress(low) (useless skill)
+164,0A4,+distress(med) (useless skill)
+165,0A5,+distress(high) (useless skill)
+166,0A6,+panic(low) (useless skill)
+167,0A7,+panic(med) (useless skill)
+168,0A8,+panic(high) (useless skill)
+169,0A9,+fear(low) (useless skill)
+170,0AA,+fear(med) (useless skill)
+171,0AB,+fear(high) (useless skill)
+172,0AC,+rage(low) (useless skill)
+173,0AD,+rage(med) (useless skill)
+174,0AE,+rage(high) (useless skill)
+175,0AF,+poison(low) (useless skill)
+192,0C0,Dia
+193,0C1,Diarama
+194,0C2,Diarahan
+195,0C3,Media
+196,0C4,Medirama
+197,0C5,Mediarahan
+198,0C6,Salvation
+199,0C7,Patra
+200,0C8,Me patra
+201,0C9,Re patra
+202,0CA,Posumundi
+203,0CB,Amrita
+204,0CC,Recarm
+205,0CD,Samarecarm
+206,0CE,Tarunda
+207,0CF,Matarunda
+208,0D0,Sukunda
+209,0D1,Masukunda
+210,0D2,Rakunda
+211,0D3,Marakunda
+212,0D4,Dekunda
+213,0D5,0x0D5 (filler skill)
+214,0D6,Tarukaja
+215,0D7,Matarukaja
+216,0D8,Sukukaja
+217,0D9,Masukukaja
+218,0DA,Rakukaja
+219,0DB,Marakukaja
+220,0DC,Power Charge
+221,0DD,Mind Charge
+222,0DE,0x0DE (useless skill)
+223,0DF,Dekaja
+224,0E0,Tetrakarn
+225,0E1,Makarakarn
+226,0E2,Rebellion
+227,0E3,Revolution
+228,0E4,0x0E4 (useless skill)
+229,0E5,Fire Break
+230,0E6,Ice Break
+231,0E7,Wind Break
+232,0E8,Electricity Break
+233,0E9,Traesto
+234,0EA,Trafuri
+235,0EB,Healing Wave
+236,0EC,Recarmdra
+237,0ED,Charmdi
+238,0EE,Enradi
